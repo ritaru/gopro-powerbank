@@ -46,3 +46,7 @@ Parts are 2.0*1.2mm (2012 metric) if there is no further notation.
 - When not in use, please disconnect the battery. There is no onboard switch for on/off feature. (I might add this though)
 - TP4056 happens to be quite hot when charging. Use separate charging tools (such as XTAR or Nitecore) for durability.
 - I haven't built this yet, so additional features may be added later.
+
+
+### AGPL v3.0 License
+This repository is using AGPL v3.0.
