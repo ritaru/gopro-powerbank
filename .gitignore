@@ -1,10 +1,7 @@
-*.lib
 *.htm
 *.html
-*.kicad_mod
 *-bak
 *-cache
 *.step
 Gerbers
 *.zip
-*-lib-table

@@ -1,0 +1,37 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# DW01A
+#
+DEF DW01A U 0 40 Y Y 1 L N
+F0 "U" -400 450 50 H V L BNN
+F1 "DW01A" -400 -500 50 H V L BNN
+F2 "SOT95P280X145-6N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Fortune Semiconductor" 0 0 50 H I L BNN "MF"
+F5 "103849" 0 0 50 H I L BNN "SNAPEDA_PACKAGE_ID"
+F6 "SOT-23-6 Fortune Semiconductor" 0 0 50 H I L BNN "Package"
+F7 "None" 0 0 50 H I L BNN "Price"
+F8 "https://www.snapeda.com/parts/DW01A/Fortune+Semiconductor/view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+F9 "IPC 7351B" 0 0 50 H I L BNN "STANDARD"
+F10 "1.8" 0 0 50 H I L BNN "PARTREV"
+F11 "https://www.snapeda.com/parts/DW01A/Fortune+Semiconductor/view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F12 "DW01A" 0 0 50 H I L BNN "MP"
+F13 "\nOne Cell Lithium-ion/Polymer Battery Protection IC\n" 0 0 50 H I L BNN "Description"
+F14 "Fortune Semiconductor" 0 0 50 H I L BNN "MANUFACTURER"
+F15 "Not in stock" 0 0 50 H I L BNN "Availability"
+F16 "1.45mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+DRAW
+S -400 -400 400 400 0 0 10 f
+X VCC 5 600 300 200 L 40 40 0 0 W 
+X GND 6 600 -300 200 L 40 40 0 0 W 
+X TD 4 -600 -100 200 R 40 40 0 0 P 
+X OD 1 600 -100 200 L 40 40 0 0 O 
+X OC 3 600 100 200 L 40 40 0 0 O 
+X CS 2 -600 100 200 R 40 40 0 0 I 
+ENDDRAW
+ENDDEF
+#
+# End Library
